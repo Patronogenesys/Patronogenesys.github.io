@@ -1,0 +1,39 @@
+/* td{
+    height: 50px;
+    width: 50px;
+}
+.block{
+    display:block;
+} */
+.field{
+    display: grid;
+    grid-template-rows: repeat(10,50px);
+    grid-template-columns: repeat(10,50px);
+}
+.field__cage{
+    border: solid rgb(255, 174, 0) 1px;
+}
+.field__cover{
+    margin: -50px 0px;
+    height: 50px;
+    width: 50px;
+    /* z-index: 1; */
+    background: #000;
+    position: relative;
+    opacity: 0%;
+
+}
+.field__info{
+    height: 50px;
+    width: 50px;
+    background-color: mediumaquamarine;
+    position: relative;
+}
+.Ship{
+    background-color: magenta;
+}
+.Clear{
+    background-color: aquamarine;
+}
+.disabled{
+}
